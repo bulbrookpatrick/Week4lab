@@ -23,7 +23,7 @@
             
             
         </form>
-        <p name = "message" value = "Result: ---"></p>
+        <p>${message}</p>
         <a href = "/Week3Lab_Calculators/age">Age Calculator</a>
     </body>
 </html>
