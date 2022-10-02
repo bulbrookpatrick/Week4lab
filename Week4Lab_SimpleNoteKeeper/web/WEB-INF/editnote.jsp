@@ -13,6 +13,16 @@
     
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <<form method="post">
+        <h1>Simple Note Keeper</h1>
+                <h2>View Note</h2>
+                <h3>Title: </h3> <input type="text" name="title" value="${note.title}">
+                
+        <h3>Contents:</h3>
+        <p><input type="text" name="content" value = "${note.content}"</p><br>
+        
+        <input type ="submit" value = "save" name = "save">
+        </form>
+        
     </body>
 </html>
